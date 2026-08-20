@@ -1,0 +1,18 @@
+{
+  "dataset": "MedQA",
+  "backbone": "gpt4o",
+  "doctor_llm": "claude3.5sonnet",
+  "patient_llm": "gpt4o",
+  "measurement_llm": "gpt4o",
+  "moderator_llm": "gpt4o",
+  "judge_llm": "gpt4o",
+  "n_scenarios": 20,
+  "total_inferences": 20,
+  "tool_enabled": true,
+  "elicit_management": true,
+  "content_arm": "t1_injection",
+  "attacks": [{"id": "T1Injection", "tap": "TOOL_RETURN"}],
+  "defenses": [],
+  "run_id": "p1_t1_claude_doctor",
+  "trace_path": "trace_p1_t1_claude_doctor.jsonl"
+}

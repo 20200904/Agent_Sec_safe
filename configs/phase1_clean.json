@@ -1,0 +1,13 @@
+{
+  "run_id": "phase1_clean",
+  "dataset": "MedQA",
+  "backbone": "gpt4o",
+  "n_scenarios": 5,
+  "total_inferences": 20,
+  "tool_enabled": true,
+  "elicit_management": true,
+  "content_arm": "clean",
+  "attacks": [],
+  "defenses": [],
+  "trace_path": "trace_phase1_clean.jsonl"
+}

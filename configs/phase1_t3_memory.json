@@ -1,0 +1,15 @@
+{
+  "run_id": "phase1_t3_memory",
+  "dataset": "MedQA",
+  "backbone": "gpt4o",
+  "n_scenarios": 5,
+  "total_inferences": 20,
+  "tool_enabled": false,
+  "elicit_management": true,
+  "content_arm": "clean",
+  "attacks": [
+    {"id": "T3MemPoison", "tap": "MEMORY_WRITE"}
+  ],
+  "defenses": [],
+  "trace_path": "trace_phase1_t3_memory.jsonl"
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "phase2_t1_d4",
+  "dataset": "MedQA",
+  "backbone": "mistral-medium-2505",
+  "n_scenarios": 5,
+  "total_inferences": 20,
+  "tool_enabled": true,
+  "elicit_management": true,
+  "content_arm": "t1_injection",
+  "attacks": [],
+  "defenses": [
+    {"id": "D4_CommitGate", "tap": "DIAGNOSIS_COMMIT",
+     "verdict_cache_path": "scripts/.verdict_cache/t1.json",
+     "require_cached_verdict": true}
+  ],
+  "trace_path": "run_d4_stage6.jsonl"
+}

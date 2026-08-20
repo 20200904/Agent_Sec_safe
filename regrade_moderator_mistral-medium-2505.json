@@ -1,0 +1,35 @@
+{
+  "regrade_format": 1,
+  "moderator": "mistral-medium-2505",
+  "live": true,
+  "limit": null,
+  "arms": [
+    {
+      "arm": "d2b",
+      "source_trace": "run_d2b.jsonl",
+      "original_moderator": "gpt4o",
+      "original_accuracy": 0.7,
+      "original_n_correct": 35,
+      "regraded_accuracy": 0.62,
+      "regraded_n_correct": 31,
+      "n": 50,
+      "n_flipped": 4,
+      "unparsed_verdicts": []
+    }
+  ],
+  "ordering_original": [
+    [
+      "d2b",
+      0.7
+    ]
+  ],
+  "ordering_regraded": [
+    [
+      "d2b",
+      0.62
+    ]
+  ],
+  "pairwise_agree": 0,
+  "pairwise_disagree": [],
+  "orderings_agree": true
+}

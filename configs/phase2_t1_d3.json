@@ -1,0 +1,16 @@
+{
+  "run_id": "phase2_t1_d3",
+  "dataset": "MedQA",
+  "backbone": "mistral-medium-2505",
+  "n_scenarios": 5,
+  "total_inferences": 20,
+  "tool_enabled": true,
+  "elicit_management": true,
+  "content_arm": "t1_injection",
+  "attacks": [],
+  "defenses": [
+    {"id": "D3_Renderer", "tap": "DIAGNOSIS_COMMIT",
+     "verdict_cache_path": "scripts/.verdict_cache/t1.json"}
+  ],
+  "trace_path": "run_d3_stage5.jsonl"
+}

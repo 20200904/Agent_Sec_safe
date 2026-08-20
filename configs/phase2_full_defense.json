@@ -1,0 +1,18 @@
+{
+  "run_id": "phase2_full_defense",
+  "dataset": "MedQA",
+  "backbone": "gpt4o",
+  "n_scenarios": 5,
+  "total_inferences": 20,
+  "tool_enabled": true,
+  "elicit_management": true,
+  "content_arm": "t1_injection",
+  "attacks": [],
+  "defenses": [
+    {"id": "D1_Isolation", "tap": "TOOL_RETURN"},
+    {"id": "D2_Detector", "tap": "TOOL_RETURN"},
+    {"id": "D3_Verifier", "tap": "PRE_COMMIT"},
+    {"id": "D4_OutputGate", "tap": "PRE_COMMIT"}
+  ],
+  "trace_path": "trace_phase2_full_defense.jsonl"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "phase2_t1_d2b",
+  "dataset": "MedQA",
+  "backbone": "mistral-medium-2505",
+  "n_scenarios": 50,
+  "total_inferences": 30,
+  "tool_enabled": false,
+  "tool_return_on_measurement": true,
+  "elicit_management": true,
+  "content_arm": "t1_injection",
+  "attacks": [],
+  "defenses": [
+    {"id": "D2b_Excise", "tap": "TOOL_RETURN"}
+  ],
+  "trace_path": "run_d2b.jsonl"
+}

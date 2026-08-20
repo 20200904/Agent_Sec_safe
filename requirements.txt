@@ -1,0 +1,15 @@
+# Python 3.9+ (code is kept 3.9-compatible; developed against 3.12).
+#
+# Only two third-party packages are needed to reproduce the runs in the paper,
+# because every agent role and the harm judge are served over OpenAI-compatible
+# chat completions.
+
+openai>=1.0            # doctor/patient/measurement/moderator (Mistral endpoint) + harm judge
+requests>=2.28         # fallback HTTP transport if the openai SDK is absent
+
+# Optional -- only if you swap a backbone to a provider the paper did not use:
+# anthropic>=0.25      # claude* model strings
+# replicate>=0.25      # llama-2-70b-chat, llama-3-70b-instruct, mixtral-8x7b
+
+# Test suite only:
+# pytest>=7.0

@@ -1,0 +1,13 @@
+{
+  "run_id": "golden",
+  "dataset": "MedQA",
+  "backbone": "gpt4o",
+  "n_scenarios": 5,
+  "total_inferences": 20,
+  "tool_enabled": false,
+  "elicit_management": false,
+  "content_arm": "clean",
+  "attacks": [],
+  "defenses": [],
+  "trace_path": "trace_golden.jsonl"
+}

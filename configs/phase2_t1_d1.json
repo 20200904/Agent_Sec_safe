@@ -1,0 +1,15 @@
+{
+  "run_id": "phase2_t1_d1",
+  "dataset": "MedQA",
+  "backbone": "gpt4o",
+  "n_scenarios": 5,
+  "total_inferences": 20,
+  "tool_enabled": true,
+  "elicit_management": true,
+  "content_arm": "t1_injection",
+  "attacks": [],
+  "defenses": [
+    {"id": "D1_Isolation", "tap": "TOOL_RETURN"}
+  ],
+  "trace_path": "trace_phase2_t1_d1.jsonl"
+}
