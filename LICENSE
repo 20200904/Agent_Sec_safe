@@ -1,0 +1,80 @@
+MIT License
+
+Copyright (c) 2026 MinJi Kim
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+This package bundles third-party material. The licence above covers the work
+authored here -- core/, interceptors/, nodes/, score/, scripts/, tests/,
+configs/, runner.py, compat.py, conftest.py, and the released result artefacts.
+It does not override the terms below.
+
+--------------------------------------------------------------------------------
+AgentClinic  --  upstream/
+--------------------------------------------------------------------------------
+
+upstream/agentclinic.py is an unmodified copy of AgentClinic, and
+upstream/agentclinic_*.jsonl are its scenario corpora, redistributed here so the
+experiment is self-contained. AgentClinic is distributed under the MIT licence
+and its notice is reproduced in full below, as that licence requires. A copy also
+sits at upstream/LICENSE.txt alongside the files it covers.
+
+    Schmidgall, S., Ziaei, R., Harris, C., Reis, E., Jopling, J., and Moor, M.
+    AgentClinic: A Multimodal Agent Benchmark to Evaluate AI in Simulated
+    Clinical Environments. arXiv:2405.07960, 2024.
+    https://github.com/SamuelSchmidgall/AgentClinic
+
+    MIT License
+
+    Copyright (c) 2024 Samuel Schmidgall
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+--------------------------------------------------------------------------------
+MedQA  --  scenario provenance
+--------------------------------------------------------------------------------
+
+The AgentClinic MedQA scenarios above derive from the MedQA dataset. This work
+uses them only as simulation inputs and reports no MedQA question-answering
+result.
+
+    Jin, D., Pan, E., Oufattole, N., Weng, W.-H., Fang, H., and Szolovits, P.
+    What Disease Does This Patient Have? A Large-Scale Open Domain Question
+    Answering Dataset from Medical Exams. Applied Sciences 11(14):6421, 2021.
